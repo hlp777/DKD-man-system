@@ -1,8 +1,4 @@
-<p align="center" >
-<span style="background-color: #5373e0;display: inline-block"> 
-<img alt="logo" src="https://likede2-admin.itheima.net/img/logo.3673fab5.png">
-</span>
-</p>
+
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">帝可得</h1>
 <h4 align="center">基于RuoYi（SpringBoot+Vue前后端分离）的Java快速开发框架</h4>
 
