@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  *
  * @author ruoyi
  */
+@EnableFileStorage
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 public class DkdApplication
 {

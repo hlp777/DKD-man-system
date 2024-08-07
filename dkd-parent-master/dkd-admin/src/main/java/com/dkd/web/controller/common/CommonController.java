@@ -77,15 +77,22 @@ public class CommonController
     {
         try
         {
-            // 上传文件路径
+            /*// 上传文件路径
             String filePath = RuoYiConfig.getUploadPath();
             // 上传并返回新文件名称
             String fileName = FileUploadUtils.upload(filePath, file);
-            String url = serverConfig.getUrl() + fileName;
+            String url = serverConfig.getUrl() + fileName;*/
+
+            // 指定oss保存文件路径 dkd-images/2024/06/19/文件名
+            String objectName = LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd")) + "/";
+            // 上传图片，返回文件信息
+            FileInfo fileInfo = fileStorageService.of(file)
+                    .setPath(objectName)
+                    .upload();
             AjaxResult ajax = AjaxResult.success();
-            ajax.put("url", url);
-            ajax.put("fileName", fileName);
-            ajax.put("newFileName", FileUtils.getName(fileName));
+            ajax.put("url", fileInfo.getUrl());
+            ajax.put("fileName", fileInfo.getUrl()); // 注意：这里的值需要改为URL，因为前端的访问地址会做一个判断，如果一http开头就直接显示此图片
+            ajax.put("newFileName", fileInfo.getUrl());
             ajax.put("originalFilename", file.getOriginalFilename());
             return ajax;
         }
