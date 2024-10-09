@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 人员列表Mapper接口
  *
- * @author itheima
+ * @author huang
  * @date 2024-06-15
  */
 public interface EmpMapper

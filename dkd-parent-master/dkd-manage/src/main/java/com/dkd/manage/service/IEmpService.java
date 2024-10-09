@@ -6,7 +6,7 @@ import com.dkd.manage.domain.Emp;
 /**
  * 人员列表Service接口
  * 
- * @author itheima
+ * @author huang
  * @date 2024-06-15
  */
 public interface IEmpService 

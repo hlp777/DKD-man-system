@@ -24,7 +24,7 @@ import com.dkd.common.core.page.TableDataInfo;
 /**
  * 售货机货道Controller
  * 
- * @author itheima
+ * @author huang
  * @date 2024-06-21
  */
 @RestController

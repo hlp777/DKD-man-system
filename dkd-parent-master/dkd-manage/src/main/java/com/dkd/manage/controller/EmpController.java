@@ -24,7 +24,7 @@ import com.dkd.common.core.page.TableDataInfo;
 /**
  * 人员列表Controller
  * 
- * @author itheima
+ * @author huang
  * @date 2024-06-15
  */
 @RestController

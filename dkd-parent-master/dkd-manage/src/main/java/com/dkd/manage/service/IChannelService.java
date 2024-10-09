@@ -6,7 +6,7 @@ import com.dkd.manage.domain.Channel;
 /**
  * 售货机货道Service接口
  * 
- * @author itheima
+ * @author huang
  * @date 2024-06-21
  */
 public interface IChannelService 

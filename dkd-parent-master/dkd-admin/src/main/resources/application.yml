@@ -140,6 +140,6 @@ dromara:
         access-key: 
         secret-key: 
         end-point: oss-cn-beijing.aliyuncs.com
-        bucket-name: dkd-itheima
-        domain: https://dkd-itheima.oss-cn-beijing.aliyuncs.com/ # 访问域名，注意“/”结尾，例如：https://abc.oss-cn-shanghai.aliyuncs.com/
+        bucket-name: dkd-huang
+        domain: https://dkd-huang.oss-cn-beijing.aliyuncs.com/ # 访问域名，注意“/”结尾，例如：https://abc.oss-cn-shanghai.aliyuncs.com/
         base-path: dkd-images/ # 基础路径

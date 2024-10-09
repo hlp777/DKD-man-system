@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 点位管理Mapper接口
  *
- * @author itheima
+ * @author huang
  * @date 2024-06-05
  */
 public interface NodeMapper

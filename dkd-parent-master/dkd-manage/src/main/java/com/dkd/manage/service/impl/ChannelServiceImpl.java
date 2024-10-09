@@ -11,7 +11,7 @@ import com.dkd.manage.service.IChannelService;
 /**
  * 售货机货道Service业务层处理
  * 
- * @author itheima
+ * @author huang
  * @date 2024-06-21
  */
 @Service
